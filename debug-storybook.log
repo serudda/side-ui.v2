@@ -1,0 +1,390 @@
+[14:26:50.122] [INFO] Storybook Upgrade - v9.1.3
+[14:26:50.130] [INFO] detect-projects-spinner-start: Detecting projects...
+[14:26:50.131] [DEBUG] Finding Storybook projects...
+[14:26:50.194] [DEBUG] Found 1 Storybook projects
+[14:26:50.195] [INFO] detect-projects-spinner: Detecting projects: 1 projects
+[14:26:50.195] [DEBUG] Getting Storybook data...
+[14:26:50.195] [DEBUG] Getting Storybook info...
+[14:26:50.195] [DEBUG] Loading main config...
+[14:26:50.226] [DEBUG] Getting stories paths...
+[14:26:50.234] [DEBUG] Getting package manager...
+[14:26:50.646] [DEBUG] Getting Storybook version...
+[14:26:50.647] [DEBUG] /apps/preview/.storybook - Validating before version... 9.1.3
+[14:26:50.647] [DEBUG] /apps/preview/.storybook - Validating upgrade compatibility...
+[14:26:50.647] [DEBUG] /apps/preview/.storybook - Fetching NPM version information...
+[14:26:50.647] [DEBUG] Getting CLI versions from NPM for storybook...
+[14:26:50.648] [DEBUG] Getting CLI versions from NPM for storybook@next...
+[14:26:51.512] [DEBUG] /apps/preview/.storybook - Evaluating blockers...
+[14:26:51.513] [DEBUG] Getting installed version for @storybook/experimental-addon-test...
+[14:26:51.943] [INFO] detect-projects-spinner-stop: 1 project detected
+[14:26:51.943] [DEBUG] Found 1 valid projects and 0 error projects
+[14:26:51.943] [INFO] Upgrading from 9.1.3 to 9.1.3
+[14:26:51.949] [INFO] upgrade-dependencies-task-start: Fetching versions to update package.json files..
+[14:26:51.949] [DEBUG] Updating dependencies in /apps/preview/.storybook...
+[14:26:51.953] [INFO] upgrade-dependencies-task: /apps/preview/package.json
+/package.json
+[14:26:51.953] [DEBUG] {
+  "upgradedDependencies": []
+}
+[14:26:51.953] [DEBUG] {
+  "upgradedDevDependencies": [
+    "storybook@9.1.3",
+    "@storybook/react-vite@9.1.3",
+    "@storybook/react@9.1.3",
+    "@storybook/addon-a11y@9.1.3",
+    "@storybook/addon-themes@9.1.3"
+  ]
+}
+[14:26:51.953] [DEBUG] {
+  "upgradedPeerDependencies": []
+}
+[14:26:51.954] [DEBUG] Using cached version for storybook...
+[14:26:51.954] [DEBUG] Getting CLI versions from NPM for @storybook/react-vite...
+[14:26:53.989] [DEBUG] Getting CLI versions from NPM for @storybook/react...
+[14:26:55.271] [DEBUG] Getting CLI versions from NPM for @storybook/addon-a11y...
+[14:26:56.569] [DEBUG] Getting CLI versions from NPM for @storybook/addon-themes...
+[14:26:57.770] [DEBUG] {
+  "upgradedDependencies": []
+}
+[14:26:57.770] [DEBUG] {
+  "upgradedDevDependencies": [
+    "@storybook/addon-a11y@9.1.3",
+    "@storybook/addon-themes@9.1.3",
+    "@storybook/react-vite@9.1.3",
+    "storybook@9.1.3"
+  ]
+}
+[14:26:57.770] [DEBUG] {
+  "upgradedPeerDependencies": []
+}
+[14:26:57.770] [DEBUG] Using cached version for @storybook/addon-a11y...
+[14:26:57.770] [DEBUG] Using cached version for @storybook/addon-themes...
+[14:26:57.770] [DEBUG] Using cached version for @storybook/react-vite...
+[14:26:57.770] [DEBUG] Using cached version for storybook...
+[14:26:57.770] [INFO] upgrade-dependencies-task-success: Updated package versions in package.json files
+[14:26:57.770] [INFO] detect-automigrations-task-start: Detecting automigrations...
+[14:26:57.770] [DEBUG] Starting automigration collection across 1 projects and 15 fixes...
+[14:26:57.778] [INFO] detect-automigrations-task: Checking automigrations for /apps/preview/.storybook...
+[14:26:57.778] [DEBUG] Processing project: /apps/preview/.storybook
+[14:26:57.778] [DEBUG] Checking fix eslintPlugin for project /apps/preview/.storybook...
+[14:26:57.780] [DEBUG] Checking fix addon-mdx-gfm-remove for project /apps/preview/.storybook...
+[14:26:57.780] [DEBUG] Checking fix addon-storysource-code-panel for project /apps/preview/.storybook...
+[14:26:57.780] [DEBUG] Checking fix upgrade-storybook-related-dependencies for project /apps/preview/.storybook...
+[14:26:57.780] [DEBUG] Checking for incompatible storybook packages...
+[14:26:57.781] [DEBUG] Getting installed version for @storybook/test...
+[14:26:57.782] [DEBUG] Getting installed version for @storybook/addon-essentials...
+[14:26:57.783] [DEBUG] Getting installed version for @storybook/addon-interactions...
+[14:26:58.239] [DEBUG] Getting CLI versions from NPM for @storybook/addon-essentials...
+[14:26:58.242] [DEBUG] Getting CLI versions from NPM for @storybook/test...
+[14:26:58.247] [DEBUG] Getting CLI versions from NPM for @storybook/addon-interactions...
+[14:27:00.231] [DEBUG] Checking fix initial-globals for project /apps/preview/.storybook...
+[14:27:00.240] [DEBUG] Checking fix addon-a11y-addon-test for project /apps/preview/.storybook...
+[14:27:00.240] [DEBUG] Checking fix consolidated-imports for project /apps/preview/.storybook...
+[14:27:00.240] [DEBUG] Checking fix addon-experimental-test for project /apps/preview/.storybook...
+[14:27:00.240] [DEBUG] Using cached installed version for @storybook/experimental-addon-test...
+[14:27:00.240] [DEBUG] Checking fix rnstorybook-config for project /apps/preview/.storybook...
+[14:27:00.240] [DEBUG] Checking fix remove-addon-interactions for project /apps/preview/.storybook...
+[14:27:00.240] [DEBUG] Checking fix renderer-to-framework for project /apps/preview/.storybook...
+[14:27:00.241] [DEBUG] Checking fix remove-essential-addons for project /apps/preview/.storybook...
+[14:27:00.241] [DEBUG] Checking fix addon-a11y-parameters for project /apps/preview/.storybook...
+[14:27:00.241] [DEBUG] Checking fix remove-docs-autodocs for project /apps/preview/.storybook...
+[14:27:00.243] [DEBUG] Checking fix wrap-require for project /apps/preview/.storybook...
+[14:27:00.250] [INFO] detect-automigrations-task: 
+Automigrations detected:
+[14:27:00.256] [INFO] detect-automigrations-task: ✔ eslintPlugin
+[14:27:00.261] [INFO] detect-automigrations-task: ✔ consolidated-imports
+[14:27:00.266] [INFO] detect-automigrations-task: ✔ remove-addon-interactions
+[14:27:00.270] [INFO] detect-automigrations-task: ✔ renderer-to-framework
+[14:27:00.275] [INFO] detect-automigrations-task: ✔ remove-essential-addons
+[14:27:00.280] [INFO] detect-automigrations-task: ✔ wrap-require
+[14:27:00.280] [INFO] detect-automigrations-task-success: 6 automigration(s) detected
+[14:28:14.763] [PROMPT] Select automigrations to run {"choice":["eslintPlugin","consolidated-imports","remove-addon-interactions","renderer-to-framework","remove-essential-addons","wrap-require"]}
+[14:28:14.764] [INFO] automigrate-/apps/preview/.storybook-task-start: Running automigrations for /apps/preview/.storybook
+[14:28:14.764] [DEBUG] Adding dependencies: eslint-plugin-storybook@9.1.3
+[14:28:14.765] [DEBUG] Getting CLI versions from NPM for eslint-plugin-storybook...
+[14:28:15.601] [DEBUG] Detected flat config at /Users/serudda/Documents/Projects/side-ui.v2/apps/preview/eslint.config.js
+[14:28:15.620] [INFO] automigrate-/apps/preview/.storybook-task: ✔ eslintPlugin
+[14:28:15.628] [INFO] automigrate-/apps/preview/.storybook-task: ✔ consolidated-imports
+[14:28:15.630] [DEBUG] Uninstalling @storybook/addon-interactions
+[14:28:15.631] [DEBUG] Removing '@storybook/addon-interactions' from main.js addons field.
+[14:28:15.637] [INFO] automigrate-/apps/preview/.storybook-task: ✔ remove-addon-interactions
+[14:28:15.637] [DEBUG] 
+Migrating @storybook/react to @storybook/react-vite
+[14:28:15.638] [DEBUG] Updating package.json files...
+[14:28:15.645] [INFO] automigrate-/apps/preview/.storybook-task: ✔ renderer-to-framework
+[14:28:15.646] [DEBUG] Uninstalling @storybook/addon-essentials
+[14:28:15.647] [DEBUG] Removing '@storybook/addon-essentials' from main.js addons field.
+[14:28:15.648] [DEBUG] Getting Storybook info...
+[14:28:15.648] [DEBUG] Loading main config...
+[14:28:15.651] [DEBUG] Getting stories paths...
+[14:28:15.651] [DEBUG] Getting package manager...
+[14:28:15.653] [DEBUG] Getting Storybook version...
+[14:28:15.661] [INFO] automigrate-/apps/preview/.storybook-task: Verifying @storybook/addon-docs
+[14:28:15.667] [INFO] automigrate-/apps/preview/.storybook-task: Installing @storybook/addon-docs@9.1.3
+[14:28:15.667] [DEBUG] Getting CLI versions from NPM for @storybook/addon-docs...
+[14:28:17.869] [INFO] automigrate-/apps/preview/.storybook-task: Adding '@storybook/addon-docs' to the "addons" field in
+/Users/serudda/Documents/Projects/side-ui.v2/apps/preview/.storybook/main.ts
+[14:28:17.876] [INFO] automigrate-/apps/preview/.storybook-task: ✔ remove-essential-addons
+[14:28:17.886] [INFO] automigrate-/apps/preview/.storybook-task: ✔ wrap-require
+[14:28:17.886] [INFO] automigrate-/apps/preview/.storybook-task-success: Completed automigrations for /apps/preview/.storybook
+[14:28:17.886] [INFO] Installing dependencies...
+[14:28:17.886] [INFO] install-dependencies-task-start: Installing dependencies...
+[14:28:18.348] [INFO] Progress: resolved 0, reused 1, downloaded 0, added 0
+[14:28:18.355] [INFO] install-dependencies-task: Progress: resolved 0, reused 1, downloaded 0, added 0
+[14:28:19.347] [INFO] Progress: resolved 390, reused 379, downloaded 8, added 0
+[14:28:19.354] [INFO] install-dependencies-task: Progress: resolved 390, reused 379, downloaded 8, added 0
+[14:28:20.346] [INFO] Progress: resolved 425, reused 398, downloaded 15, added 0
+[14:28:20.359] [INFO] install-dependencies-task: Progress: resolved 425, reused 398, downloaded 15, added 0
+[14:28:21.347] [INFO] Progress: resolved 505, reused 416, downloaded 15, added 0
+[14:28:21.367] [INFO] install-dependencies-task: Progress: resolved 505, reused 416, downloaded 15, added 0
+[14:28:22.346] [INFO] Progress: resolved 563, reused 441, downloaded 24, added 0
+[14:28:22.362] [INFO] install-dependencies-task: Progress: resolved 563, reused 441, downloaded 24, added 0
+[14:28:23.347] [INFO] Progress: resolved 569, reused 447, downloaded 24, added 0
+[14:28:23.367] [INFO] install-dependencies-task: Progress: resolved 569, reused 447, downloaded 24, added 0
+[14:28:34.696] [INFO] Progress: resolved 570, reused 447, downloaded 24, added 0
+[14:28:34.704] [INFO] install-dependencies-task: Progress: resolved 570, reused 447, downloaded 24, added 0
+[14:28:34.797] [INFO] Packages: +56 -36
+++++++++++++++++++++++++++++++++++++++++++++++++--------------------------------
+[14:28:34.805] [INFO] install-dependencies-task: Packages: +56 -36
+++++++++++++++++++++++++++++++++++++++++++++++++--------------------------------
+[14:28:34.928] [INFO] Progress: resolved 570, reused 448, downloaded 24, added 56, done
+[14:28:34.935] [INFO] install-dependencies-task: Progress: resolved 570, reused 448, downloaded 24, added 56, done
+[14:28:35.271] [INFO] devDependencies:
+- @storybook/addon-a11y 8.6.14
++ @storybook/addon-a11y 9.1.3
+- @storybook/addon-themes 8.6.14
++ @storybook/addon-themes 9.1.3
+- @storybook/react-vite 8.6.14
++ @storybook/react-vite 9.1.3
+- @storybook/test 8.6.14
+- storybook 8.6.14
++ storybook 9.1.3
+[14:28:35.279] [INFO] install-dependencies-task: devDependencies:
+- @storybook/addon-a11y 8.6.14
++ @storybook/addon-a11y 9.1.3
+- @storybook/addon-themes 8.6.14
++ @storybook/addon-themes 9.1.3
+- @storybook/react-vite 8.6.14
++ @storybook/react-vite 9.1.3
+- @storybook/test 8.6.14
+- storybook 8.6.14
++ storybook 9.1.3
+[14:28:35.279] [INFO] WARN  Issues with peer dependencies found
+.
+├─┬ @storybook/addon-essentials 8.6.14
+│ ├── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+│ ├─┬ @storybook/addon-actions 8.6.14
+│ │ └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+│ ├─┬ @storybook/addon-backgrounds 8.6.14
+│ │ └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+│ ├─┬ @storybook/addon-controls 8.6.14
+│ │ └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+│ ├─┬ @storybook/addon-docs 8.6.14
+│ │ ├── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+│ │ ├─┬ @storybook/blocks 8.6.14
+│ │ │ └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+│ │ ├─┬ @storybook/csf-plugin 8.6.14
+│ │ │ └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+│ │ └─┬ @storybook/react-dom-shim 8.6.14
+│ │   └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+│ ├─┬ @storybook/addon-highlight 8.6.14
+│ │ └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+│ ├─┬ @storybook/addon-measure 8.6.14
+│ │ └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+│ ├─┬ @storybook/addon-outline 8.6.14
+│ │ └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+│ ├─┬ @storybook/addon-toolbars 8.6.14
+│ │ └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+│ └─┬ @storybook/addon-viewport 8.6.14
+│   └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+└─┬ @storybook/addon-interactions 8.6.14
+  ├── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+  ├─┬ @storybook/instrumenter 8.6.14
+  │ └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+  └─┬ @storybook/test 8.6.14
+    └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+
+Done in 17.1s
+[14:28:35.286] [INFO] install-dependencies-task: WARN  Issues with peer dependencies found
+.
+├─┬ @storybook/addon-essentials 8.6.14
+│ ├── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+│ ├─┬ @storybook/addon-actions 8.6.14
+│ │ └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+│ ├─┬ @storybook/addon-backgrounds 8.6.14
+│ │ └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+│ ├─┬ @storybook/addon-controls 8.6.14
+│ │ └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+│ ├─┬ @storybook/addon-docs 8.6.14
+│ │ ├── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+│ │ ├─┬ @storybook/blocks 8.6.14
+│ │ │ └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+│ │ ├─┬ @storybook/csf-plugin 8.6.14
+│ │ │ └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+│ │ └─┬ @storybook/react-dom-shim 8.6.14
+│ │   └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+│ ├─┬ @storybook/addon-highlight 8.6.14
+│ │ └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+│ ├─┬ @storybook/addon-measure 8.6.14
+│ │ └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+│ ├─┬ @storybook/addon-outline 8.6.14
+│ │ └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+│ ├─┬ @storybook/addon-toolbars 8.6.14
+│ │ └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+│ └─┬ @storybook/addon-viewport 8.6.14
+│   └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+└─┬ @storybook/addon-interactions 8.6.14
+├── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+├─┬ @storybook/instrumenter 8.6.14
+│ └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+└─┬ @storybook/test 8.6.14
+└── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+
+Done in 17.1s
+[14:28:35.290] [INFO] Dependencies installed
+[14:28:35.290] [INFO] install-dependencies-task-success: Dependencies installed
+[14:28:35.290] [WARN] Since you are in a monorepo, we advise you to deduplicate your dependencies. We can do this for you but it might take some time.
+[14:28:51.201] [PROMPT] Execute pnpm run dedupe? {"choice":true}
+[14:28:51.201] [INFO] Deduplicating dependencies...
+[14:28:51.201] [INFO] dedupe-dependencies-task-start: Deduplicating dependencies...
+[14:28:51.673] [INFO] Progress: resolved 1, reused 0, downloaded 0, added 0
+[14:28:51.680] [INFO] dedupe-dependencies-task: Progress: resolved 1, reused 0, downloaded 0, added 0
+[14:28:52.675] [INFO] Progress: resolved 23, reused 23, downloaded 0, added 0
+[14:28:52.684] [INFO] dedupe-dependencies-task: Progress: resolved 23, reused 23, downloaded 0, added 0
+[14:28:53.677] [INFO] Progress: resolved 28, reused 28, downloaded 0, added 0
+[14:28:53.686] [INFO] dedupe-dependencies-task: Progress: resolved 28, reused 28, downloaded 0, added 0
+[14:28:54.677] [INFO] Progress: resolved 96, reused 89, downloaded 0, added 0
+[14:28:54.685] [INFO] dedupe-dependencies-task: Progress: resolved 96, reused 89, downloaded 0, added 0
+[14:28:55.677] [INFO] Progress: resolved 151, reused 139, downloaded 0, added 0
+[14:28:55.683] [INFO] dedupe-dependencies-task: Progress: resolved 151, reused 139, downloaded 0, added 0
+[14:28:56.678] [INFO] Progress: resolved 214, reused 202, downloaded 0, added 0
+[14:28:56.699] [INFO] dedupe-dependencies-task: Progress: resolved 214, reused 202, downloaded 0, added 0
+[14:28:57.680] [INFO] Progress: resolved 320, reused 263, downloaded 0, added 0
+[14:28:57.688] [INFO] dedupe-dependencies-task: Progress: resolved 320, reused 263, downloaded 0, added 0
+[14:28:58.684] [INFO] Progress: resolved 415, reused 317, downloaded 0, added 0
+[14:28:58.690] [INFO] dedupe-dependencies-task: Progress: resolved 415, reused 317, downloaded 0, added 0
+[14:28:59.685] [INFO] Progress: resolved 502, reused 404, downloaded 0, added 0
+[14:28:59.694] [INFO] dedupe-dependencies-task: Progress: resolved 502, reused 404, downloaded 0, added 0
+[14:29:00.687] [INFO] Progress: resolved 561, reused 463, downloaded 0, added 0
+[14:29:00.703] [INFO] dedupe-dependencies-task: Progress: resolved 561, reused 463, downloaded 0, added 0
+[14:29:00.803] [INFO] Packages: -16
+----------------
+[14:29:00.811] [INFO] dedupe-dependencies-task: Packages: -16
+----------------
+[14:29:00.822] [INFO] Progress: resolved 566, reused 468, downloaded 0, added 2, done
+[14:29:00.829] [INFO] dedupe-dependencies-task: Progress: resolved 566, reused 468, downloaded 0, added 2, done
+[14:29:01.050] [INFO] 
+[14:29:01.057] [INFO] dedupe-dependencies-task: 
+[14:29:01.057] [INFO] WARN  Issues with peer dependencies found
+.
+├─┬ @storybook/addon-essentials 8.6.14
+│ ├── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+│ ├─┬ @storybook/addon-actions 8.6.14
+│ │ └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+│ ├─┬ @storybook/addon-backgrounds 8.6.14
+│ │ └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+│ ├─┬ @storybook/addon-controls 8.6.14
+│ │ └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+│ ├─┬ @storybook/addon-docs 8.6.14
+│ │ ├── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+│ │ ├─┬ @storybook/blocks 8.6.14
+│ │ │ └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+│ │ ├─┬ @storybook/csf-plugin 8.6.14
+│ │ │ └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+│ │ └─┬ @storybook/react-dom-shim 8.6.14
+│ │   └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+│ ├─┬ @storybook/addon-highlight 8.6.14
+│ │ └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+│ ├─┬ @storybook/addon-measure 8.6.14
+│ │ └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+│ ├─┬ @storybook/addon-outline 8.6.14
+│ │ └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+│ ├─┬ @storybook/addon-toolbars 8.6.14
+│ │ └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+│ └─┬ @storybook/addon-viewport 8.6.14
+│   └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+└─┬ @storybook/addon-interactions 8.6.14
+  ├── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+  ├─┬ @storybook/instrumenter 8.6.14
+  │ └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+  └─┬ @storybook/test 8.6.14
+    └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+[14:29:01.063] [INFO] dedupe-dependencies-task: WARN  Issues with peer dependencies found
+.
+├─┬ @storybook/addon-essentials 8.6.14
+│ ├── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+│ ├─┬ @storybook/addon-actions 8.6.14
+│ │ └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+│ ├─┬ @storybook/addon-backgrounds 8.6.14
+│ │ └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+│ ├─┬ @storybook/addon-controls 8.6.14
+│ │ └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+│ ├─┬ @storybook/addon-docs 8.6.14
+│ │ ├── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+│ │ ├─┬ @storybook/blocks 8.6.14
+│ │ │ └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+│ │ ├─┬ @storybook/csf-plugin 8.6.14
+│ │ │ └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+│ │ └─┬ @storybook/react-dom-shim 8.6.14
+│ │   └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+│ ├─┬ @storybook/addon-highlight 8.6.14
+│ │ └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+│ ├─┬ @storybook/addon-measure 8.6.14
+│ │ └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+│ ├─┬ @storybook/addon-outline 8.6.14
+│ │ └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+│ ├─┬ @storybook/addon-toolbars 8.6.14
+│ │ └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+│ └─┬ @storybook/addon-viewport 8.6.14
+│   └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+└─┬ @storybook/addon-interactions 8.6.14
+├── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+├─┬ @storybook/instrumenter 8.6.14
+│ └── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+└─┬ @storybook/test 8.6.14
+└── ✕ unmet peer storybook@^8.6.14: found 9.1.3
+[14:29:01.074] [INFO] Dependencies deduplicated
+[14:29:01.074] [INFO] dedupe-dependencies-task-success: Dependencies deduplicated
+[14:29:01.075] [INFO] Checking the health of your project(s)..
+[14:29:01.519] [WARN] /apps/preview/.storybook: 1 issue found
+[14:29:01.524] [INFO] You are currently using Storybook 9.1.3 but you have packages which are incompatible with it:
+
+- @storybook/addon-essentials@8.6.14 which depends on 8.6.14
+ Repo: https://github.com/storybookjs/storybook/tree/next/code/addons/essentials
+- @storybook/addon-interactions@8.6.14 which depends on 8.6.14
+ Repo: https://github.com/storybookjs/storybook/tree/next/code/addons/interactions
+
+Please consider updating your packages or contacting the maintainers for compatibility details.
+
+For more on Storybook 9 compatibility, see the linked GitHub issue:
+https://github.com/storybookjs/storybook/issues/30944
+[14:29:01.524] [INFO] Incompatible Packages
+[14:29:01.529] [INFO] You are currently using Storybook 9.1.3 but you have packages which are incompatible with it:
+
+- @storybook/addon-essentials@8.6.14 which depends on 8.6.14
+ Repo: https://github.com/storybookjs/storybook/tree/next/code/addons/essentials
+- @storybook/addon-interactions@8.6.14 which depends on 8.6.14
+ Repo: https://github.com/storybookjs/storybook/tree/next/code/addons/interactions
+
+Please consider updating your packages or contacting the maintainers for compatibility details.
+
+For more on Storybook 9 compatibility, see the linked GitHub issue:
+https://github.com/storybookjs/storybook/issues/30944
+[14:29:01.534] [INFO] Storybook doctor is complete!
+[14:29:01.538] [INFO] You can always recheck the health of your project(s) by running:
+npx storybook doctor
+[14:29:01.543] [INFO] The upgrade is complete!
+[14:29:01.548] [INFO] Your project(s) have been upgraded successfully, but some issues were found which need your attention, please check Storybook doctor logs above.
+[14:29:01.577] [INFO] If you want to learn more about the automigrations that executed in your project(s), please check the following links:
+
+• eslintPlugin
+• consolidated-imports
+• remove-addon-interactions
+• renderer-to-framework
+• remove-essential-addons
+• wrap-require
+[14:29:01.581] [INFO] For a full list of changes, please check our migration guide: https://storybook.js.org/docs/migration-guide?ref=upgrade
+[14:29:01.586] [INFO] Attention: Storybook now collects completely anonymous telemetry regarding usage. This information is used to shape Storybook's roadmap and prioritize features.
+[14:29:01.590] [INFO] You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+[14:29:01.594] [INFO] https://storybook.js.org/telemetry
+[14:29:01.598] [INFO] 
