@@ -7,7 +7,8 @@
 		"dev": "storybook dev -p 6006",
 		"build": "storybook build",
 		"lint": "eslint . --max-warnings 0",
-		"check-types": "tsc --noEmit"
+		"check-types": "tsc --noEmit",
+		"clean": "git clean -xdf node_modules dist"
 	},
 	"dependencies": {
 		"@repo/button": "workspace:*",
