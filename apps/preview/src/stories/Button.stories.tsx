@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
-import { Button } from "@repo/ui/button";
+import { Button } from "@repo/button";
 
 const meta = {
 	title: "Components/Button",
@@ -15,7 +15,6 @@ type Story = StoryObj<typeof meta>;
 
 export const Primary: Story = {
 	args: {
-		className:
-			"px-3 py-2 rounded bg-black text-white hover:opacity-90 transition",
+		className: "bg-blue-500 text-white",
 	},
 };

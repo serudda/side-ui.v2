@@ -11,7 +11,7 @@ export interface ButtonProps {
 export const Button = ({ children, className, appName }: ButtonProps) => {
 	return (
 		<button
-			className={className}
+			className="px-3 py-2 rounded bg-black text-white hover:opacity-90 transition"
 			onClick={() => alert(`Hello from your ${appName} app!`)}
 		>
 			{children}

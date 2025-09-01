@@ -81,9 +81,9 @@ importers:
 
   apps/preview:
     dependencies:
-      '@repo/ui':
+      '@repo/button':
         specifier: workspace:*
-        version: link:../../packages/ui
+        version: link:../../packages/ui/button
       react:
         specifier: ^19.1.0
         version: 19.1.0
@@ -139,9 +139,9 @@ importers:
 
   apps/web:
     dependencies:
-      '@repo/ui':
+      '@repo/button':
         specifier: workspace:*
-        version: link:../../packages/ui
+        version: link:../../packages/ui/button
       next:
         specifier: ^15.5.0
         version: 15.5.0(@babel/core@7.28.3)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -227,6 +227,37 @@ importers:
       '@repo/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
+      '@types/node':
+        specifier: ^22.15.3
+        version: 22.15.3
+      '@types/react':
+        specifier: 19.1.0
+        version: 19.1.0
+      '@types/react-dom':
+        specifier: 19.1.1
+        version: 19.1.1(@types/react@19.1.0)
+      eslint:
+        specifier: ^9.34.0
+        version: 9.34.0
+      typescript:
+        specifier: 5.9.2
+        version: 5.9.2
+
+  packages/ui/button:
+    dependencies:
+      react:
+        specifier: ^19.1.0
+        version: 19.1.0
+      react-dom:
+        specifier: ^19.1.0
+        version: 19.1.0(react@19.1.0)
+    devDependencies:
+      '@repo/eslint-config':
+        specifier: workspace:*
+        version: link:../../eslint-config
+      '@repo/typescript-config':
+        specifier: workspace:*
+        version: link:../../typescript-config
       '@types/node':
         specifier: ^22.15.3
         version: 22.15.3

@@ -11,10 +11,10 @@ const config: StorybookConfig = {
 	},
 	stories: ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"],
 	addons: [
-        getAbsolutePath("@storybook/addon-a11y"),
-        getAbsolutePath("@storybook/addon-themes"),
-        getAbsolutePath("@storybook/addon-docs")
-    ],
+		getAbsolutePath("@storybook/addon-a11y"),
+		getAbsolutePath("@storybook/addon-themes"),
+		getAbsolutePath("@storybook/addon-docs"),
+	],
 	docs: {
 		defaultName: "Docs",
 	},
@@ -22,6 +22,6 @@ const config: StorybookConfig = {
 
 export default config;
 
-function getAbsolutePath(value: string): any {
-    return dirname(require.resolve(join(value, "package.json")));
+function getAbsolutePath(value: string): string {
+	return dirname(require.resolve(join(value, "package.json")));
 }
