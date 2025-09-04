@@ -7,19 +7,17 @@ const preview: Preview = {
 		docs: {
 			theme: themes.dark,
 		},
+
 		backgrounds: {
-      default: 'black',
-      values: [
-        {
-          name: 'black',
-          value: '#000000',
-        },
-        {
-          name: 'white',
-          value: '#FFFFFF',
-        },
-      ],
+      options: {
+        dark: { name: 'Dark', value: 'oklch(13% .028 261.692)' }, 
+        light: { name: 'Light', value: '#ffffff' },
+      },
     },
+
+		initialGlobals: {
+			backgrounds: { value: 'dark' },
+		},
 
 		options: {
       storySort: {
@@ -27,13 +25,6 @@ const preview: Preview = {
       },
     },
 
-		controls: {
-      matchers: {
-        color: /(background|color)$/i,
-        date: /Date$/i,
-      },
-			expanded: true,
-    },
 		actions: { argTypesRegex: "^on[A-Z].*" },
 		layout: "centered",
 	},
