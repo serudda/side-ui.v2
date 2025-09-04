@@ -1,7 +1,10 @@
 {
-	"extends": "@repo/typescript-config/react-library.json",
+	"extends": "@side-ui/typescript-config/react-library.json",
 	"compilerOptions": {
-		"outDir": "dist"
+		"outDir": "dist",
+		"module": "ESNext",
+		"moduleResolution": "bundler",
+		"verbatimModuleSyntax": true
 	},
 	"include": ["src"],
 	"exclude": ["node_modules", "dist"]
