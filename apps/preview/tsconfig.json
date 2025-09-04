@@ -4,6 +4,6 @@
 		"types": ["vite/client"],
 		"baseUrl": "."
 	},
-	"include": ["**/*.ts", "**/*.tsx", ".storybook/*.ts", ".storybook/*.tsx"],
+	"include": ["**/*.ts", "**/*.tsx", ".storybook/*.ts", ".storybook/*.tsx", ".storybook/manager.js", ".storybook/theme.js"],
 	"exclude": ["node_modules", "dist"]
 }
