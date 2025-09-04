@@ -14,6 +14,8 @@ const config: StorybookConfig = {
 		getAbsolutePath("@storybook/addon-a11y"),
 		getAbsolutePath("@storybook/addon-themes"),
 		getAbsolutePath("@storybook/addon-docs"),
+		getAbsolutePath('@storybook/addon-onboarding'),
+    getAbsolutePath('@chromatic-com/storybook'),
 	],
 	docs: {
 		defaultName: "Docs",

@@ -11,7 +11,9 @@
 		"clean": "git clean -xdf node_modules dist"
 	},
 	"dependencies": {
+		"@chromatic-com/storybook": "^4.1.1",
 		"@repo/button": "workspace:*",
+		"@storybook/addon-onboarding": "^9.1.4",
 		"@tailwindcss/vite": "^4.1.12",
 		"react": "^19.1.0",
 		"react-dom": "^19.1.0",
