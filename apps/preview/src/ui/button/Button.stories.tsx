@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
-import { Button, ButtonAppearance, ButtonSize, ButtonVariant } from "@repo/button";
+import { Button, ButtonAppearance, ButtonSize, ButtonVariant } from "@side-ui/button";
 
 const meta = {
 	title: "UI Components/Button",

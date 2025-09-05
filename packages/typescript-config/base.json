@@ -17,7 +17,7 @@
 		"target": "ES2022",
 		"baseUrl": ".",
 		"paths": {
-			"@repo/button": ["packages/ui/button/src/index.ts"]
+			"@side-ui/button": ["packages/ui/button/src/index.ts"]
 		}
 	}
 }

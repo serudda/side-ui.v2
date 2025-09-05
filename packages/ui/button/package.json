@@ -1,20 +1,32 @@
 {
-	"name": "@repo/button",
-	"version": "0.0.0",
-	"private": true,
-	"types": "./src/index.ts",
-	"main": "./src/index.ts",
+	"name": "@side-ui/button",
+	"version": "0.1.0",
+	"type": "module",
+	"private": false,
+	"license": "MIT",
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"import": "./dist/index.js",
+			"default": "./dist/index.js"
+		}
+	},
 	"files": [
-		"src"
+		"dist"
 	],
-	"devDependencies": {
-		"@repo/eslint-config": "workspace:*",
-		"@repo/typescript-config": "workspace:*",
-		"@types/node": "^22.15.3",
-		"@types/react": "19.1.0",
-		"@types/react-dom": "19.1.1",
-		"eslint": "^9.34.0",
-		"typescript": "5.9.2"
+	"sideEffects": false,
+	"scripts": {
+		"build": "tsc -p tsconfig.json",
+		"dev": "tsc -w -p tsconfig.json",
+		"lint": "eslint . --max-warnings 0",
+		"check-types": "tsc --noEmit -p tsconfig.json",
+		"clean": "git clean -xdf dist",
+		"prepack": "pnpm run build"
+	},
+	"publishConfig": {
+		"access": "public"
 	},
 	"peerDependencies": {
 		"react": "^19.1.0",
@@ -23,6 +35,17 @@
 		"tailwind-variants": "^3.1.0"
 	},
 	"dependencies": {
-		"@radix-ui/react-slot": "^1.2.3"	
+		"@radix-ui/react-slot": "^1.2.3"
+	},
+	"devDependencies": {
+		"@side-ui/eslint-config": "workspace:*",
+		"@side-ui/typescript-config": "workspace:*",
+		"@types/node": "^22.15.3",
+		"@types/react": "19.1.0",
+		"@types/react-dom": "19.1.1",
+		"eslint": "^9.34.0",
+		"typescript": "5.9.2",
+		"tailwind-merge": "^3.3.1",
+		"tailwind-variants": "^3.1.0"
 	}
 }

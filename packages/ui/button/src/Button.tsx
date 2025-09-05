@@ -1,5 +1,5 @@
 import * as React from "react";
-import { ButtonAppearance, ButtonSize, ButtonVariant, VariantProps } from "./types";
+import { ButtonAppearance, ButtonSize, ButtonVariant, type VariantProps } from "./types";
 import { Slot } from "@radix-ui/react-slot";
 import { tv } from "tailwind-variants";
 
@@ -32,6 +32,7 @@ export const button = tv({
 		variant: {
 			[ButtonVariant.primary]: "",
 			[ButtonVariant.neutral]: "",
+			[ButtonVariant.destructive]: "",
 		},
 	},
 	compoundVariants: [
@@ -54,6 +55,15 @@ export const button = tv({
 			],
 		},
 		{
+			appearance: ButtonAppearance.contained,
+			variant: ButtonVariant.destructive,
+			className: [
+				"border border-red-700/20",
+				"bg-red-600 hover:bg-red-500/80",
+				"text-white",
+			],
+		},
+		{
 			appearance: ButtonAppearance.outlined,
 			variant: ButtonVariant.primary,
 			className: [
@@ -72,6 +82,15 @@ export const button = tv({
 			],
 		},
 		{
+			appearance: ButtonAppearance.outlined,
+			variant: ButtonVariant.destructive,
+			className: [
+				"border border-red-700/60",
+				"hover:border-red-700/20 hover:bg-red-600",
+				"text-white",
+			],
+		},
+		{
 			appearance: ButtonAppearance.ghost,
 			variant: ButtonVariant.primary,
 			className: ["hover:bg-primary-500", "text-white"],
@@ -80,6 +99,11 @@ export const button = tv({
 			appearance: ButtonAppearance.ghost,
 			variant: ButtonVariant.neutral,
 			className: ["hover:bg-gray-800", "text-white"],
+		},
+		{
+			appearance: ButtonAppearance.ghost,
+			variant: ButtonVariant.destructive,
+			className: ["hover:bg-red-600", "text-white"],
 		},
 	],
 	defaultVariants: {

@@ -1,5 +1,5 @@
 {
-	"extends": "@repo/typescript-config/react-library.json",
+	"extends": "@side-ui/typescript-config/react-library.json",
 	"compilerOptions": {
 		"types": ["vite/client"],
 		"baseUrl": "."
